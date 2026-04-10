@@ -7,13 +7,17 @@ curl -fsSL https://claude.ai/install.sh | bash
 
 ### set claude
 ```
-export ANTHROPIC_BASE_URL="https://ai.wuji.tech/api"
+cat >> ~/.bashrc << 'EOF'
+export ANTHROPIC_BASE_URL="https://your-company/api"
 export ANTHROPIC_AUTH_TOKEN="your-api-token-here"
+alias cds="claude --dangerously-skip-permissions"
+EOF
+source ~/.bashrc
 ```
 
 ### install prompt
 ```
-passcode is xxx, help me to install google chrome, qq, wechat, zsh, oh my zsh, vim. add a zsh command at the end of ~/.bashrc . finally help me to login github.
+passcode is xxx, help me to install cursor, google chrome, qq, wechat, zsh, oh my zsh, vim. add a zsh command at the end of ~/.bashrc . finally help me to login github.
 install things which is necessary for `gh auth login`.
 ```
 
