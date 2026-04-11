@@ -1,4 +1,4 @@
-this repo help you setup new linux machine with cladue
+this repo help you setup new linux machine with cladue, espicially you are a robotics engineer/researcher setting up a new personal ubunut machine.
 
 ### install claude
 ```
@@ -23,6 +23,10 @@ passcode is xxx, help me to install
 - generate ~/.ssh/id_ed25519
 finally help me to login github. install terminator. set terminate as default terminal. 
 install things which is necessary for `gh auth login`. 
+
+- download screenshot app snipaste. and add it autostart service when boot the machine.
+
+- set vim as the default editor for git commit -s
 ```
 
 ### github login
