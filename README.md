@@ -33,3 +33,8 @@ install things which is necessary for `gh auth login`.
 ```
 gh auth login
 ```
+
+### install ros2 humble
+```
+- install ros2 humble
+```
