@@ -1,4 +1,4 @@
-this repo help you setup new linux machine with cladue, espicially you are a robotics engineer/researcher setting up a new personal ubunut machine.
+this repo help you setup new linux machine with claude, espicially you are a robotics engineer/researcher setting up a new personal ubunut machine.
 
 ### install claude
 ```
@@ -8,7 +8,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 ### set claude
 ```
 cat >> ~/.bashrc << 'EOF'
-export ANTHROPIC_BASE_URL="https://your-company/api"
+export ANTHROPIC_BASE_URL="https://your-org/api"
 export ANTHROPIC_AUTH_TOKEN="your-api-token-here"
 alias cds="claude --dangerously-skip-permissions"
 EOF
