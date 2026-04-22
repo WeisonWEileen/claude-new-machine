@@ -17,8 +17,8 @@ source ~/.bashrc
 
 ### install prompt
 ```
-passcode is xxx, help me to install 
-- cursor, google chrome, cloudflared, qq, wechat, zsh, oh my zsh(install auto-suggestion plugin and copypath plugin), vim. add a zsh command at the end of ~/.bashrc . 
+passcode is xxx, help me to install these if not installed: 
+-  net-tools, openssh-server, cursor, google chrome, cloudflared, qq, wechat, zsh, oh my zsh(install auto-suggestion plugin and copypath plugin), vim. add a zsh command at the end of ~/.bashrc . 
 
 - generate ~/.ssh/id_ed25519
 finally help me to login github. install terminator. set terminate as default terminal. 
@@ -34,11 +34,6 @@ install things which is necessary for `gh auth login`.
 ### github login
 ```
 gh auth login
-```
-
-### install ros2 humble
-```
-- install ros2 humble
 ```
 
 ### install uv
